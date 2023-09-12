@@ -556,12 +556,8 @@ video {
   margin-bottom: 1.75rem;
 }
 
-.mt-7 {
-  margin-top: 1.75rem;
-}
-
-.mt-11 {
-  margin-top: 2.75rem;
+.grid {
+  display: grid;
 }
 
 .min-h-screen {
@@ -574,6 +570,10 @@ video {
 
 .max-w-md {
   max-width: 28rem;
+}
+
+.place-content-center {
+  place-content: center;
 }
 
 .self-end {
@@ -619,10 +619,6 @@ video {
 
 .p-3 {
   padding: 0.75rem;
-}
-
-.p-5 {
-  padding: 1.25rem;
 }
 
 .px-7 {
@@ -734,10 +730,6 @@ body {
 
   .lg\:row-end-3 {
     grid-row-end: 3;
-  }
-
-  .lg\:min-h-screen {
-    min-height: 100vh;
   }
 
   .lg\:grid-cols-3 {
