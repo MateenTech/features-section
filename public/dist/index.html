@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../images/favicon-32x32.png"
+    />
+    <title>Four card feature section</title>
+    <!-- Tailwindcss -->
+    <link rel="stylesheet" href="./styles.css" />
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="../globalStyles.css" />
+    <!-- Animate.css CDN -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  </head>
+  <body class="overflow-x-hidden">
+    <div class="bg-slate-50">
+      <main class="py-10 px-7 w-full xl:max-w-6xl xl:mx-auto">
+        <div class="mb-14">
+          <h2 class="text-center text-slate-500 text-lg md:text-2xl animate__animated animate__fadeInDown animate__slow">Reliable, efficient delivery</h2>
+          <h2 class=" font-semibold text-center text-slate-700 text-lg mb-3 md:text-2xl animate__animated animate__fadeInDown animate__slow">Powered by Technology</h2>
+          <p class="text-center text-slate-400 max-w-md mx-auto animate__animated animate__fadeInUp animate__slow">
+            Our Artificial Intelligence powered tools use millions of project
+            data points to ensure that your project is successful
+          </p>
+        </div>
+
+        <ul class="[&>li]:bg-white [&>li:not(:last-child)]:mb-6 [&>li]:rounded-md [&>li]:p-6 [&>li]:shadow-lg [&>li]:flex [&>li]:flex-col [&>li>div>h3]:font-semibold [&>li>div>h3]:text-slate-600 [&>li>div>h3]:mb-1 [&>li>div>p]:text-slate-400 md:grid md:grid-cols-2 md:gap-7 md:[&>li:not(:last-child)]:mb-0 lg:grid-cols-3 lg:items-center">
+          <li class="border-t-4 border-cyan lg:row-start-1 lg:row-end-3  animate__animated animate__zoomIn">
+            <div class="mb-7">
+              <h3>Supervisor</h3>
+              <p>Monitors activity to identify project roadblocks</p>
+            </div>
+            <div class="self-end">
+              <img
+                src="../images/icon-supervisor.svg"
+                alt="Maginfine glass icon with eye in the middle"
+              />
+            </div>
+          </li>
+          <li class="border-t-4 border-red animate__animated animate__zoomIn">
+            <div class="mb-7">
+              <h3>Team Builder</h3>
+              <p>
+                Scans our talent network to create the optimal team for your
+                project
+              </p>
+            </div>
+            <div class="self-end">
+              <img
+                src="../images/icon-team-builder.svg"
+                alt="builder house icon"
+              />
+            </div>
+          </li>
+          <li class="border-t-4 border-orange lg:col-start-2 animate__animated animate__zoomIn">
+            <div class="mb-7">
+              <h3>Karma</h3>
+              <p>Regularly evaluates our talent to ensure quality</p>
+            </div>
+            <div class="self-end">
+              <img
+                src="../images/icon-karma.svg"
+                alt="Idea icon of glowing orange bulb"
+              />
+            </div>
+          </li>
+          <li class="border-t-4 border-blue lg:col-start-3 lg:row-start-1 lg:row-end-3 animate__animated animate__zoomIn">
+            <div class="mb-7">
+              <h3>Calculator</h3>
+              <p>
+                Uses data from past projects to provide better delivery
+                estimates
+              </p>
+            </div>
+            <div class="self-end">
+              <img src="../images/icon-calculator.svg" alt="" />
+            </div>
+          </li>
+        </ul>
+      </main>
+
+      <footer class="text-center p-3 text-slate-500 text-sm">
+        <p>
+          Challenge by
+          <a href="https://www.frontendmentor.io/profile/MateenTech" target="_blank"
+             class="text-slate-800 mx-1 underline underline-offset-4">Frontend Mentor</a
+          >. Coded by <a href="https://github.com/MateenTech" target="_blank" class="text-slate-800 mx-1 underline underline-offset-4">Mateen Bhutto</a>.
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
